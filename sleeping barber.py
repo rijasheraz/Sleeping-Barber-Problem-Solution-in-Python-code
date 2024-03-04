@@ -3,16 +3,16 @@ import time
 import random
 
 # Define the maximum number of customers and the number of chairs in the waiting room
-MAX_CUSTOMERS = 5
+MAX_CUSTOMERS = 5                                    
 NUM_CHAIRS = 3
 
 # Define the semaphores for the barber, the customers, and the mutex
 barber_semaphore = threading.Semaphore(0)
 customer_semaphore = threading.Semaphore(0)
-mutex = threading.Semaphore(1)
+mutex = threading.Semaphore(1)                                    
 
 # Define a list to keep track of the waiting customers
-waiting_customers = []
+waiting_customers = []                                    
 
 # Define the barber thread function
 def barber():
