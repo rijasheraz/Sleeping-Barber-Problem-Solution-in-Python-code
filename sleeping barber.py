@@ -1,5 +1,5 @@
 # Sleeping-Barber-Problem-Solution-in-Python
- from tkinter import *
+from tkinter import *
 from tkinter.ttk import Progressbar, Style
 import tkinter as tk
 from tkinter import messagebox
