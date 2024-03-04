@@ -1,2 +1,2 @@
 # Sleeping-barber 
-Operating sysytem on python project 
+Operating system project in Python   
