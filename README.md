@@ -190,5 +190,6 @@ def show_next_page_func_no(self):
     # Create an instance of the NextPage class and show the page
     next_page = EndPage()
     next_page.show_page()
+    
 if name == "main": app = Sleeping_Barber() app.window.mainloop() app.EndPage()
 if name == "main":app = Sleeping_Barber()app.window.mainloop()app. EndPage()
